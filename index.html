@@ -8,26 +8,28 @@
   <meta charset="utf-8">
   <title>let's play</title>
  </head>
- <body bgcolor="#c0c0c0" style="font-size: 20px;"> 
- 
+ <body> 
+  <address>
+  Цей сайт зроблений веб-дизайнером Кірєєвою Олександрою. Якщо ви хочете взяти маї статті до себе на сайт спитайте мого дозволу.
+  </address>
  <!--початок шапка сайту-->
- <div id="header" style="height: 100px;">
-    <img src="http://ichef.bbci.co.uk/childrens-responsive-ichef/r/400/1x/cbeebies/lets-play_brand_logo_bid.png" alt="Лого"
-    style="float: left; height: 100%;">
+ <header>
+    <img src="http://ichef.bbci.co.uk/childrens-responsive-ichef/r/400/1x/cbeebies/lets-play_brand_logo_bid.png" alt="Лого">
     Шапка сайту
-    <a href="index.html">Головна</a> | 
     <a href="#">Блог</a> | 
     <a href="#">Форум</a> | 
     <a href="#">Контакти</a>
     <a href="#">Книга відгуків</a> | 
     <a href="#">Про сайт</a> | 
- </div>
+ </header>
 <!-- кінець шапки-->
-
+ <nav>
+  <a href="index.html">Головна</a>
+ </nav>
 <!-- початок сайдбару сайту-->
-<div id="sidebar" style="clear: both;">
+<section id="sidebar">
     <div id="sidebar-block-1">
-        Сайдбар блок 1
+        <b>Визначення і приклад ігор:</b>
         <ol type="I">
             <li><a href="dudaktuchni-igru.html">Дидактичні ігри</a></li>
             <li><a href="#">Мовленнєві ігри</a></li>
@@ -41,7 +43,7 @@
     </div>
 
     <div id="sidebar-block-2">
-        Сайдбар блок 2
+        <b>Корисно знати:</b>
         <ul type="circle">
             <li><a href="#">Гра.Види гри</a></li>
             <li><a href="#">Ігрова діяльність</a></li>
@@ -49,14 +51,12 @@
             <li><a href="#">Структура гри</a></li>
             <li><a href="#">Рекомедації для вихователів</a></li>
         </ul>
-
     </div>
-</div>
+</section>
 <!-- кінець сайдбару-->
 
 <!-- початок контену сайту, основний блок-->
- <div id="content">
-    Контент
+ <section id="content">
  
    <p></p><h4>Як впливають ігри на мовний розвиток дитини?</h4><br>
         Ми цілий день грали, читали,малювали,<br>
@@ -68,58 +68,75 @@
    <p>Для розвитку мови дітей одним із найефективніших методів є <b>гра!</b></p> 
    <p>Доведено, що здатність дитини використовувати <em>в ігрових ситуаціях</em> зв’язні висловлювання впливає на емоційно чуттєву сферу їхньої життєдіяльності і водночас <b>максимально</b> <em>активізує мовлення дітей</em>.</p>
     
-   <table border="1" align="center" width="20%">
+   <table border="1" align="center" width="20%" background="http://biznesoblast.com/image/news/15/008662.jpg" >
      <tbody><tr> 
        <th>№</th>
        <th>Функції ігрової діяльності</th>
      </tr>
       <tr> 
-       <td>1.</td>
-       <td>розважальна</td>
+       <td><b>1.</b></td>
+       <td><b>розважальна</b></td>
      </tr>
      <tr> 
-       <td>2.</td>
-       <td>коміунікатива</td>
+       <td><b>2.</b></td>
+       <td><b>коміунікатива</b></td>
      </tr>
      <tr> 
-       <td>3.</td>
-       <td>етнографічна</td>
+       <td><b>3.</b></td>
+       <td><b>етнографічна</b></td>
      </tr>
      <tr> 
-       <td>4.</td>
-       <td>соціальна</td>
+       <td><b>4.</b></td>
+       <td><b>соціальна</b></td>
      </tr>
      <tr> 
-       <td>5.</td>
-       <td>виховна</td>
+       <td><b>5.</b></td>
+       <td><b>виховна</b></td>
      </tr>
      <tr> 
-       <td>6.</td>
-       <td>корекційна</td>
+       <td><b>6.</td>
+       <td><b>корекційна</td>
      </tr>
      <tr> 
-       <td>7.</td>
-       <td>терапетична</td>
+       <td><b>7.</b></td>
+       <td><b>терапетична</b></td>
      </tr>
      <tr> 
-       <td>8.</td>
-       <td>саморегуляційна</td>
+       <td><b>8.</b></td>
+       <td><b>саморегуляційна</b></td>
      </tr>
      <tr> 
-       <td>9.</td>
-       <td>діагностична</td>
+       <td><b>9.</b></td>
+       <td><b>діагностична</b></td>
      </tr>
-   </tbody></table>
-</div>
+   </tbody>
+ </table>
+</section>
 <!-- кінець контенту-->
 
 <!-- початок блоку опитування сайту-->
-<div id="poll">
+<aside>
     <form name="test" method="get" action="index.html">
       <p><b>Ваше ім'я:</b><br>
        <input name="username" type="text" size="40">
       </p>
-      <p><b> Які ігри на вашу думку найбільш стимулюють мовлення дітей:</b><Br>
+      <p><b> Які ігри на вашу думку найбільше стимулюють мовлення дітей? </b><Br>
+       <input type="radio" name="igru" value="budivelni"> Будівельні ігри<Br>
+       <input type="radio" name="igru" value="ruhlivi"> Рухливі ігри<Br>
+       <input type="radio" name="igru" value="tvorch"> Творчі ігри<Br>
+       <input type="radio" name="igru" value="narodni"> Народні ігри<Br>
+       <input type="radio" name="igru" value="sujetni"> Сюжетно-рольові ігри<Br>
+       <input type="radio" name="igru" value="teatralini"> Театральні ігри<Br>
+      </p>
+      <p>Коментар<Br>
+        <textarea name="comment" cols="40" rows="3"></textarea></p>
+      <p><input type="submit" value="Відправити">
+       <input type="reset" value="Очистити"></p>
+        </p>
+      <p><b>Ваше ім'я:</b><br>
+       <input name="username" type="text" size="40">
+       </p>
+      <p><b> Які ігри ви частіше використовуєте в своїй практиці? </b><Br>
        <input type="radio" name="igru" value="budivelni"> Будівельні ігри<Br>
        <input type="radio" name="igru" value="ruhlivi"> Рухливі ігри<Br>
        <input type="radio" name="igru" value="tvorch"> Творчі ігри<Br>
@@ -132,17 +149,14 @@
       <p><input type="submit" value="Відправити">
        <input type="reset" value="Очистити"></p>
     </form>
-</div>
+</aside>
 
-<div id="footer">
+<footer>
     <hr size="center" width="400">
-    Подвал сайту
-
-
     <a href="#">написати коментар</a> |
     <a href="#">допомога</a> |
     <a href="#">головна</a> |
-</div>
+</footer>
 
 </body> 
 </html>
