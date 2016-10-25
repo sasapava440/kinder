@@ -1,2 +1,0 @@
-# kinder
-Site for kindergarten
