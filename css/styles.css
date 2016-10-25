@@ -1,0 +1,67 @@
+html, body {
+	height: 100%; /*встановили висоту сторінки на всю висоту браузера*/
+}
+
+body {
+
+}
+
+#wrapper {
+	width: 960px; /*ширина*/
+	margin: 0 auto; /*блок по центру*/
+	margin-bottom: 40px; /*відступ знизу від блока врапер*/
+	overflow: hidden;
+
+}
+
+
+header {
+	background-color: rgb(222, 239, 247);
+	margin-bottom: 30px; /*відступ після блока хедер*/
+}
+
+header img {
+	max-width: 100px; /*висота катинки*/
+}
+
+nav {
+	display: inline-table; /*відмінити перенос строки*/
+	float: right; /*позиціонування з права*/
+	padding: 19px; /*відступи навколо блоку 15 пікселів*/
+}
+
+header nav a {
+	text-decoration: none;
+	margin: 10px; /*відступи навколо ссилок*/
+}
+
+footer {
+	background-color: rgb(222, 239, 247);
+	text-align: center; /*вирівняти весь текст в блоці футер по середині*/
+	clear: both; /*очистити поток*/
+}
+
+footer a {
+	text-decoration: none;
+	margin: 10px;
+}
+
+aside {
+	background-color: rgb(222, 239, 247);
+	width:30%;
+	float: left;
+}
+
+#content {
+	background-color: rgb(222, 239, 247);
+	width: 60%;
+	padding-left: 10%;
+	float: left;
+}
+
+hr {
+	margin: 0 auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 400px;
+}
